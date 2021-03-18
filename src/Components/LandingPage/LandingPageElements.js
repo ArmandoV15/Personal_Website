@@ -20,7 +20,7 @@ export const LandingPageContain = styled.div`
         left: 0;
         background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), 
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-        z-index: 1;
+        z-index: 2;
     }
 `;
 
@@ -50,7 +50,7 @@ export const LandingContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    align-text: center;
+    align-items: center;
 `;
 
 export const LandingH1 = styled.h1`
@@ -98,27 +98,6 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;    
-`;
-
-export const Button = styled.button`
-    border-radius: 50px;
-    background: ${({primary}) => (primary ? '#2EDABA' : '#010606')};
-    white-space: nowrap;
-    padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({dark}) => (dark ? '#010606' : '#fff')};
-    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
-    outline: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#fff' : '#2EDABA')};
-    }
 `;
 
 
