@@ -4,7 +4,7 @@ import {FaTimes} from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
     position: fixed;
-    z-index: 0;
+    z-index: ${({isOpen}) => (isOpen ? '4' : '-1')};;
     width: 100%;
     height: 100%;
     background: #0d0d0d;
@@ -13,8 +13,8 @@ export const SidebarContainer = styled.aside`
     top: 0;
     left:0;
     transition: 0.3s ease-in-out;
-    opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
-    top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
+    opacity: ${({isOpen}) => (isOpen ? '100%' : '0%')};
+    top: ${({isOpen}) => (isOpen ? '0%' : '-100%')};
     top: 0;
 `;
 
@@ -55,6 +55,7 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
     color: #fff;
     cursor: pointer;
 

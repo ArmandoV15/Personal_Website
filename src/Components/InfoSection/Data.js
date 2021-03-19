@@ -1,18 +1,22 @@
 export const homeObjOne = {
-    id: 'about',
+    id: 'About',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topline: 'A little about me',
     headline: 'Who is Armando Valdez?',
-    description: 'DESC',
-    buttonLabel: 'Get info',
+    description: 'Motivated Computer Science student pasionate about programming and ' +
+    'looking forward to brining my talents to the Computer Sceince industry.',
+    description2:'Proficient in many Object-Oriented Programming languages '+
+    'and have a growing interest in Web development and Algorithms',
+    buttonLabel: 'View Full Resume',
     imgStart: false,
     img: require('../../Images/Me.PNG').default,
     alt: 'alt',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    redirect: 'Home'
 };
 
 export const homeObjTwo = {
@@ -29,5 +33,7 @@ export const homeObjTwo = {
     alt: 'alt',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    redirect: 'Projects'
 };
+
