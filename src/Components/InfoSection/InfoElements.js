@@ -34,7 +34,7 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 5px;
+    padding: 0 15px;
     grid-area: col1;
 `;
 
@@ -87,13 +87,16 @@ export const BtnWrapper = styled.div`
 
 export const ImgWrap = styled.div`
     max-width: 555px;
-    height: 100%;
+    height: 20%;
 `;
 
 export const Img = styled.img`
     width: 60%;
-    margin: 0 10px 10px 0;
+    margin: 0 0 10px 0;
     padding-right: 0;
+    @media screen and (max-width: 800px){
+        max-width: 39%
+    }
 `;
 
 
