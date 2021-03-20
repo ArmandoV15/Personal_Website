@@ -6,7 +6,7 @@ export const homeObjOne = {
     topline: 'A little about me',
     headline: 'Who is Armando Valdez?',
     description: 'Motivated Computer Science student pasionate about programming and ' +
-    'looking forward to brining my talents to the Computer Sceince industry.',
+    'looking forward to brining my talents to the Computer Science industry.',
     description2:'Proficient in many Object-Oriented Programming languages '+
     'and have a growing interest in Web development and Algorithms',
     buttonLabel: 'View Full Resume',
@@ -47,8 +47,8 @@ export const homeObjThree = {
     lightTextDesc: false,
     topline: 'Contact',
     headline: 'Feel free to reach out if you have any questions or would like to chat!',
-    description: 'Phone:',
-    description2: 'Email:',
+    description: 'Phone: (626).533.7451',
+    description2: 'Email: armandov1015@gmail.com',
     buttonLabel: 'View Projects',
     imgStart: true,
     img: require('../../Images/Contact.svg').default,
