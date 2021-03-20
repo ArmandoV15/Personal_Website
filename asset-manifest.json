@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Personal_Website/static/css/main.7af1dabd.chunk.css",
+    "main.js": "/Personal_Website/static/js/main.4e14712b.chunk.js",
+    "main.js.map": "/Personal_Website/static/js/main.4e14712b.chunk.js.map",
+    "runtime-main.js": "/Personal_Website/static/js/runtime-main.a31aa5c2.js",
+    "runtime-main.js.map": "/Personal_Website/static/js/runtime-main.a31aa5c2.js.map",
+    "static/js/2.cc0ff5ce.chunk.js": "/Personal_Website/static/js/2.cc0ff5ce.chunk.js",
+    "static/js/2.cc0ff5ce.chunk.js.map": "/Personal_Website/static/js/2.cc0ff5ce.chunk.js.map",
+    "index.html": "/Personal_Website/index.html",
+    "static/css/main.7af1dabd.chunk.css.map": "/Personal_Website/static/css/main.7af1dabd.chunk.css.map",
+    "static/js/2.cc0ff5ce.chunk.js.LICENSE.txt": "/Personal_Website/static/js/2.cc0ff5ce.chunk.js.LICENSE.txt",
+    "static/media/Contact.svg": "/Personal_Website/static/media/Contact.74c47ae4.svg",
+    "static/media/Exp.svg": "/Personal_Website/static/media/Exp.4f8dbb30.svg",
+    "static/media/Me.PNG": "/Personal_Website/static/media/Me.e5002f32.PNG",
+    "static/media/Resume.401236cf.pdf": "/Personal_Website/static/media/Resume.401236cf.pdf",
+    "static/media/video.d28831bc.mp4": "/Personal_Website/static/media/video.d28831bc.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a31aa5c2.js",
+    "static/js/2.cc0ff5ce.chunk.js",
+    "static/css/main.7af1dabd.chunk.css",
+    "static/js/main.4e14712b.chunk.js"
+  ]
+}
