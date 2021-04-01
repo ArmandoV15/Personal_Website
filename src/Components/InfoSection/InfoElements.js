@@ -7,17 +7,14 @@ export const InfoContainer = styled.div`
     @media screen and (max-width: 768px){
         padding: 100px 0;
     }
-    @media screen and (min-height: 710px){
-        height: 866px;
-    }
 `;
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 785px;
+    height: 859px;
     width: 100%;
-    max-width: 1100%;
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
@@ -28,6 +25,7 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
+    margin-bottom: 100px;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px){
