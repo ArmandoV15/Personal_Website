@@ -15,6 +15,7 @@ export const ProjectsContainer = styled.div`
     @media screen and (max-width: 480px){
         height: 1300px;
     }
+    
 `;
 
 export const ProjectsH1 = styled.h1`
@@ -35,7 +36,7 @@ export const ProjectsWrapper = styled.div`
     align-items: center;
     grid-gap: 16px;
     padding 0 50px;
-
+    margin-bottom: 200px;
     @media screen and (max-width: 1000px){
         grid-template-columns: 1fr 1fr;
     }
@@ -46,7 +47,7 @@ export const ProjectsWrapper = styled.div`
     }
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.a`
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -57,6 +58,8 @@ export const ProjectsCard = styled.div`
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    color: #000;
+    text-decoration: none;
     
     &:hover{
         transform: scale(1.02);

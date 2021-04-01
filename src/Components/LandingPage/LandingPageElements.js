@@ -8,6 +8,9 @@ export const LandingPageContain = styled.div`
     align-items: center;
     padding: 0 30px;
     height: 700px;
+    @media screen and (min-height: 710px){
+        height: 863px;
+    }
     position: relative;
     z-index: 1;
 

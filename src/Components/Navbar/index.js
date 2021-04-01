@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
+import {animateScroll as scroll} from 'react-scroll';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements';
 
 const Navbar = ({toggle}) => {
@@ -17,27 +18,31 @@ const Navbar = ({toggle}) => {
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
     }, [])
+
+    const toggleHome = () =>{
+        scroll.scrollToTop();
+    }
     return (
         <>
         <IconContext.Provider value={{color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/'>Armando V</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>Armando V</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks smooth={true} to='About'>About</NavLinks>
+                            <NavLinks smooth={true} spy={true} exact='true' offset={-78} activeClass='active' to='About'>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks smooth={true} to='Experience'>Experience</NavLinks>
+                            <NavLinks smooth={true} spy={true} exact='true' offset={-78} to='Experience'>Experience</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks smooth={true} to='Projects'>Projects</NavLinks>
+                            <NavLinks smooth={true} spy={true} exact='true' offset={-78} to='Projects'>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks smooth={true} to='Contact'>Contact</NavLinks>
+                            <NavLinks smooth={true} spy={true} exact='true' offset={-78} to='Contact'>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
