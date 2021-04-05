@@ -26,7 +26,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topline: 'My Experience',
     headline: 'The Work I have Done',
-    description: 'Over the course of my education I have taken part in many group prjects ' + 
+    description: 'Over the course of my education I have taken part in many group projects ' + 
     'that have developed my communication and colaberative skills.',
     description2: 'Having my Senior Design project sponsored by Boeing has also given ' + 
     'me insight into what it takes to develop a well rounded product.',
